@@ -1,4 +1,5 @@
 const fs = require('fs');
+const blackList = require('./black-list');
 
 const data = fs
   .readFileSync('./data/5000-lemmas-forms.csv', {
@@ -6,6 +7,10 @@ const data = fs
   })
   .split('\r\n')
   .map((line) => line.split(','))
+  .filter(
+    ([rank, lemma, pos, lemFreq, wordFreq, word]) =>
+      word && !blackList.includes(word)
+  )
   .map(([rank, lemma, pos, lemFreq, wordFreq, word]) => [
     +rank,
     lemma,
