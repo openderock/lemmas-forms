@@ -1,6 +1,6 @@
 {
   "name": "@derock.ir/lemmas-forms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/5000-lemmas-forms.json",
   "publishConfig": {
