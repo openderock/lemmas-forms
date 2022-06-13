@@ -2,7 +2,10 @@
   "name": "@derock.ir/lemmas-forms",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/5000-lemmas-forms.json",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
