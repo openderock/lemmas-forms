@@ -1,6 +1,6 @@
 {
   "name": "@derock.ir/lemmas-forms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/forms.js",
   "publishConfig": {
