@@ -12,7 +12,10 @@ const data = fs
     lemma?.toLowerCase(),
     +lemmaRank,
   ])
-  .filter(([word]) => word && !blackList.includes(word.toLowerCase()))
+  .filter(
+    ([word, lemma]) =>
+      word && !blackList.includes(word.toLowerCase()) && !lemma.includes(`'`)
+  )
   .slice(1, -1);
 
 // saving as CSV

@@ -8249,8 +8249,6 @@ VALUES
   ('corruptions','corruption',3581),
   ('collapse','collapse',3582),
   ('collapses','collapse',3582),
-  ('ma''am','ma'am',3583),
-  ('ma''ams','ma'am',3583),
   ('greatly','greatly',3584),
   ('workshop','workshop',3585),
   ('workshops','workshop',3585),

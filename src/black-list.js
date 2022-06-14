@@ -1,1 +1,1 @@
-module.exports = [`'s`, 's', `n't`, `o'clock`];
+module.exports = [`'s`, 's'];
