@@ -2,7 +2,7 @@
   "name": "@derock.ir/lemmas-forms",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/5000-lemmas-forms.json",
+  "main": "dist/forms.js",
   "publishConfig": {
     "access": "public"
   },
