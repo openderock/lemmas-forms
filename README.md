@@ -7,6 +7,8 @@ Extracted from [https://www.wordfrequency.info/](https://www.wordfrequency.info/
 * More than 5000 lemmas
 * More than 11450 word froms
 * Provided in JS, JSON, CSV & SQL formats
+* Unique words
+* Cleaned words & lemmas
 
 ## Install
 

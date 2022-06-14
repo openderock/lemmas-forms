@@ -1,7 +1,7 @@
 const fs = require('fs');
 const blackList = require('./black-list');
 
-const data = fs
+const input = fs
   .readFileSync('./input/5000-lemmas-forms.csv', {
     encoding: 'utf-8',
   })
@@ -17,6 +17,14 @@ const data = fs
       word && !blackList.includes(word.toLowerCase()) && !lemma.includes(`'`)
   )
   .slice(1, -1);
+
+const map = new Map();
+
+input.forEach((item) => {
+  if (!map.has(item[0])) map.set(item[0], item);
+});
+
+const data = [...map.values()];
 
 // saving as CSV
 const csvRows = data.map((row) => row.join(','));
