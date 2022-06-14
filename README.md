@@ -4,8 +4,8 @@ Extracted from [https://www.wordfrequency.info/](https://www.wordfrequency.info/
 
 ## Features
 
-* More than 5000 lemmas
-* More than 11450 word froms
+* More than 4600 lemmas
+* More than 10,000 word froms
 * Provided in JS, JSON, CSV & SQL formats
 * Unique words
 * Cleaned words & lemmas
